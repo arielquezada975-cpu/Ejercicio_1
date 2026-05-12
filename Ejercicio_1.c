@@ -8,9 +8,9 @@ int main()
     ptr = &arreglo[2]; // El puntero ahora apunta al tercer elemento del arreglo (6)
     printf("%d\n", *ptr); // Imprime el valor al que apunta el puntero (6)
 
-     int tam = sizeof(arreglo) / sizeof(arreglo[0]); // Calcula el tamaño del arreglo
     for (int i = 0; i < 5; i++) {
         printf("%d ", arreglo[i]);
+        printf("%d ", *ptr); // Imprime los elementos del arreglo utilizando el puntero
     }
     printf("\n");
     return 0;
