@@ -9,7 +9,7 @@ int main()
 // impresion de arreglo con punteros
     for (int i = 0; i < 5; i++) 
     {
-        printf("arreglo[%d] = %d", i, arreglo[i]); // Imprime el valor al que apunta el puntero
+        printf("arreglo[%d] = %d\t", i, arreglo[i]); // Imprime el valor al que apunta el puntero
         //ptr = &arreglo[i];
         printf("%d\n", *(ptr++)); // Imprime el valor al que apunta el puntero  
 
